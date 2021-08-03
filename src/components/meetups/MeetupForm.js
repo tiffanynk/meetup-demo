@@ -2,21 +2,22 @@ import { React, useRef } from "react";
 import Card from "../ui/Card";
 import classes from "./MeetupForm.module.css";
 
-export default function MeetupForm() {
+export default function MeetupForm(props) {
   //Can this be refactored with one useRef like
   const titleInputRef = useRef(null);
   const imageInputRef = useRef(null);
   const addressInputRef = useRef(null);
   const descriptionInputRef = useRef(null);
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const meetupData = {
-      tile: titleInputRef.current.value,
+      title: titleInputRef.current.value,
       image: imageInputRef.current.value,
       address: addressInputRef.current.value,
       description: descriptionInputRef.current.value,
     };
-    console.log(meetupData);
+    props.onAddMeetup(meetupData);
   };
 
   return (
