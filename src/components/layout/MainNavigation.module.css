@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #073b4c;
+  background-color: #555b6e;
   padding: 0 10%;
 }
 
@@ -29,18 +29,18 @@
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #ffd166;
+  color: #faf9f9;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: white;
+  color: #bee3db;
 }
 
 .badge {
-  background-color: #073b4c;
-  color: white;
+  background-color: #89b0ae;
+  color: #faf9f9;
   border-radius: 12px;
   padding: 0 1rem;
   margin-left: 0.5rem;

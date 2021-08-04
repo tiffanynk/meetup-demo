@@ -3,7 +3,6 @@ import Card from "../ui/Card";
 import classes from "./MeetupForm.module.css";
 
 export default function MeetupForm(props) {
-  //Can this be refactored with one useRef like
   const titleInputRef = useRef(null);
   const imageInputRef = useRef(null);
   const addressInputRef = useRef(null);
