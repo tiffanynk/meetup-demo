@@ -10,4 +10,4 @@ This was a ReactJS refresher on the hooks useState, useEffect, and useContext.
 ```
 
 - [ ] Add image file upload functionality
-- [ ] Add Event Page that includes: all event info, map
+- [ ] Add edit meet up functionality
