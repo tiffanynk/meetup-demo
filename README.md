@@ -8,3 +8,6 @@ This was a ReactJS refresher on the hooks useState, useEffect, and useContext.
 ```
 [event.target.name] : event.target.value
 ```
+
+- [ ] Add image file upload functionality
+- [ ] Add Event Page that includes: all event info, map
